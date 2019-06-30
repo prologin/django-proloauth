@@ -1,0 +1,7 @@
+language: python
+python:
+ - "3.6"
+
+install: pip install black
+script: black --check .
+after_failure: utils/notify_unformated.sh

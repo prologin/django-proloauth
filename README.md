@@ -111,3 +111,15 @@ Protocol specifications
 
 The protocol is detailed in the
 [provider's sources](https://github.com/prologin/site/blob/master/prologin/users/auth_token_views.py).
+
+
+Contributing
+------------
+
+#### Formating
+
+All of the python codebase needs to be formatted using [black](https://github.com/python/black)
+by running `black .` at the root of the project before any commit.
+
+You can automate the process by copying [this precommit hook](https://gist.github.com/mrasband/fa8c07a1c63d685f4796c439089ef3ab)
+in your `.git/hooks`.
