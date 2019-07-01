@@ -3,5 +3,10 @@ python:
  - "3.6"
 
 install: pip install black
-script: black --check .
-after_failure: utils/notify_unformated.sh
+
+matrix:
+  include:
+    - name: Black formatter
+      script: black --check .
+
+after_failure: utils/travis_notify_unformated.sh
