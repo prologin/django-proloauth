@@ -13,7 +13,6 @@ Requirements
 ------------
 
 The library aims at being compatible with `python>=2.7` and django 2.
-Specific requirements are listed in requirements.txt.
 
 
 Installation
