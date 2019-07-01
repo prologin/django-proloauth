@@ -128,6 +128,6 @@ by running `black .` at the root of the project before any commit.
 You can automate the process by installing the recommended pre-commit hooks:
 
 ```bash
-pip install pre-commit
+pip install -r requirements-dev.txt
 pre-commit install
 ```

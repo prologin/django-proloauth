@@ -5,7 +5,7 @@ Please reformat your code by running `black .` at the root of the project.
 You may consider automating this process by installing default git hooks:
 
 ```bash
-pip install pre-commit
+pip install -r requirements-dev.txt
 pre-commit install
 ```
 EOF
