@@ -9,4 +9,4 @@ matrix:
     - name: Black formatter
       script: black --check .
 
-after_failure: utils/travis_notify_unformated.sh
+after_failure: utils/travis_notify_unformatted.sh

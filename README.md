@@ -8,7 +8,7 @@ Implementation of a minimalist OAuth client to login with a
 Requirements
 ------------
 
-The library aims at beeing compatible with `python>=2.7` and django 2.
+The library aims at being compatible with `python>=2.7` and django 2.
 Specific requirements are listed in requirements.txt.
 
 
@@ -116,10 +116,14 @@ The protocol is detailed in the
 Contributing
 ------------
 
-#### Formating
+#### Formatting
 
 All of the python codebase needs to be formatted using [black](https://github.com/python/black)
 by running `black .` at the root of the project before any commit.
 
-You can automate the process by copying [this precommit hook](https://gist.github.com/mrasband/fa8c07a1c63d685f4796c439089ef3ab)
-in your `.git/hooks`.
+You can automate the process by installing the recommended pre-commit hooks:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
